@@ -1,0 +1,57 @@
+<!--
+    Authors: VINOTH KUMAR D (CB.EN.U4CYS21086)
+    Mentor : Ramaguru Radhakrishnan 
+    Project Name : Anokha 2023
+    Credits : Deepthi J , Codepen
+    Start date : Feb 23,2023
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Anokha2023">
+        <title>CountDown</title>
+        <link rel="stylesheet" href="./css/flipclock.css">
+    </head>
+    <body>
+        <hr>
+        <div class="marquee">
+            <div class="track">
+              <div class="content">Infinite Marquee with long sentence • <font style="font-family: 'Tilt Prism', cursive;">Infinite Marquee with long sentence</font> • Infinite Marquee with long sentence • <font style="font-family: 'Tilt Prism', cursive;">Infinite Marquee with long sentence</font> • Infinite Marquee with long sentence</div>
+            </div>
+          </div>
+          <hr>
+          
+          <br>
+        <center>
+            <img src="./img/anokha_2023_white_small.png" width="50%" class="aimg">
+            <div>
+            <div class="clock"></div>
+            <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+            <script src="./js/flipclock.js"></script>
+            <script type="text/javascript">
+            var clock ;
+            $(document).ready(function(){
+                var currentDate = new Date();
+                var futureDate = new Date(currentDate.getFullYear() + 0, 2, 5);
+                var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000 ;
+                clock = $('.clock').FlipClock(diff, {
+                    clockFace: 'DailyCounter',
+                    countdown: true
+                });
+            });
+            </script>
+            </div>
+        </center>
+        <br>
+        <hr>
+        <div class="marquee1">
+            <div class="track1">
+              <div class="content1">Infinite Marquee with long sentence • <font style="font-family: 'Tilt Prism', cursive;">Infinite Marquee with long sentence</font> • Infinite Marquee with long sentence • <font style="font-family: 'Tilt Prism', cursive;">Infinite Marquee with long sentence</font> • Infinite Marquee with long sentence</div>
+            </div>
+          </div>
+          <hr>
+    </body>
+</html>
