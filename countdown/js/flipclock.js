@@ -1,8 +1,10 @@
-/*
-	Base.js, version 1.1a
-	Copyright 2006-2010, Dean Edwards
-	License: http://www.opensource.org/licenses/mit-license.php
-*/
+
+//     Authors: VINOTH KUMAR D (CB.EN.U4CYS21086)
+//     Mentor : Ramaguru Radhakrishnan 
+//     Project Name : Anokha 2023
+//     Credits : Deepthi J , Codepen
+//     Start date : Feb 23,2023
+
 
 var Base = function() {
 	// dummy
@@ -148,13 +150,6 @@ Base = Base.extend({
 
 var FlipClock;
 	
-/**
- * FlipClock.js
- *
- * @author     Justin Kimbrell
- * @copyright  2013 - Objective HTML, LLC
- * @licesnse   http://www.opensource.org/licenses/mit-license.php
- */
 	
 (function($) {
 	
@@ -310,15 +305,6 @@ var FlipClock;
 	
 }(jQuery));
 
-/*jshint smarttabs:true */
-
-/**
- * FlipClock.js
- *
- * @author     Justin Kimbrell
- * @copyright  2013 - Objective HTML, LLC
- * @licesnse   http://www.opensource.org/licenses/mit-license.php
- */
 	
 (function($) {
 	
@@ -554,15 +540,6 @@ var FlipClock;
 	
 }(jQuery));
 
-/*jshint smarttabs:true */
-
-/**
- * FlipClock.js
- *
- * @author     Justin Kimbrell
- * @copyright  2013 - Objective HTML, LLC
- * @licesnse   http://www.opensource.org/licenses/mit-license.php
- */
 	
 (function($) {
 	
@@ -935,15 +912,6 @@ var FlipClock;
 		
 }(jQuery));
 
-/*jshint smarttabs:true */
-
-/**
- * FlipClock.js
- *
- * @author     Justin Kimbrell
- * @copyright  2013 - Objective HTML, LLC
- * @licesnse   http://www.opensource.org/licenses/mit-license.php
- */
 	
 (function($) {
 	
@@ -1141,16 +1109,6 @@ var FlipClock;
 	
 	
 }(jQuery));
-
-/*jshint smarttabs:true */
-
-/**
- * FlipClock.js
- *
- * @author     Justin Kimbrell
- * @copyright  2013 - Objective HTML, LLC
- * @licesnse   http://www.opensource.org/licenses/mit-license.php
- */
 	
 (function($) {
 	
@@ -1190,16 +1148,6 @@ var FlipClock;
 	
 }(jQuery));
 
-/*jshint smarttabs:true */
-
-/**
- * FlipClock.js
- *
- * @author     Justin Kimbrell
- * @copyright  2013 - Objective HTML, LLC
- * @licesnse   http://www.opensource.org/licenses/mit-license.php
- */
-	
 (function($) {
 	
 	"use strict";
@@ -1669,16 +1617,6 @@ var FlipClock;
 	
 }(jQuery));
 
-/*jshint smarttabs:true */
-
-/**
- * FlipClock.js
- *
- * @author     Justin Kimbrell
- * @copyright  2013 - Objective HTML, LLC
- * @licesnse   http://www.opensource.org/licenses/mit-license.php
- */
-	
 (function($) {
 	
 	"use strict";
