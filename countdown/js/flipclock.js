@@ -2,7 +2,7 @@
 //     Authors: VINOTH KUMAR D (CB.EN.U4CYS21086)
 //     Mentor : Ramaguru Radhakrishnan 
 //     Project Name : Anokha 2023
-//     Credits : Deepthi J , Codepen
+//     Credits : Deepthi J , Codepen , flipclock.js
 //     Start date : Feb 23,2023
 
 
