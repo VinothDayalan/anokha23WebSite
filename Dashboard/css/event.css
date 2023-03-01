@@ -1,0 +1,80 @@
+.blur{
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 0.6rem !important;
+    width: 69%;
+    height: 400px;
+    margin-top: 12%;
+    margin-left: 25%;
+}
+.event-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.event-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.event-date {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.event-description {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+}
+.f-label{
+    margin-top: 4%;
+    color: #FFFFFFDE;
+    margin-left: 5%;
+}
+.f-input{
+    background-color: #0000008C;
+    border: 2px solid #181924;
+    border-radius: 0.6rem;
+    color: #FFFFFFDE;
+}
+.en-input{
+    margin-left: 15%;
+    width: 35%;
+}
+.ed-input{
+    margin-left: 10.8%;
+    width: 35%;
+    margin-top: 3%;
+}
+.et-input{
+    margin-left: 15.7%;
+    width: 35%;
+}
+.edae-input{
+    width: 11.5%;
+    margin-left: 01%;
+}
+.edas-input{
+    width: 11.5%;
+    margin-left: 11.7%;
+}
+.l-label{
+    margin-left: 2.7%;
+}
+.s-sumbit{
+    background-color: #519668;
+    border-radius:0.3em;
+    text-decoration: none;
+    border: none;
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 15%;
+    height: 30px;
+}
+.s-sumbit:hover{
+    background-color: #73ab86;
+    border:2px solid #62a077;
+}
