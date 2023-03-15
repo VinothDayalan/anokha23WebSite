@@ -5,15 +5,37 @@
     Credits : Deepthi J , Codepen
     Start date : Feb 23,2023
  */
- @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500");
- @import url('https://fonts.googleapis.com/css2?family=Anton&family=Didact+Gothic&family=Permanent+Marker&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Didact+Gothic&family=Permanent+Marker&family=Tilt+Prism&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Space+Mono&display=swap');
  body{
    background-color:#002845ff;
  }
  .aimg{
    margin-top: 5%;
  }
+ .type-writer {
+    font-size: 1.5em;
+    color: #beb7a4ff;
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+    margin-top: 3%;
+  }
+  
+  span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  .Footer{
+    color: #beb7a4ff;
+    font-family: 'Space Mono', monospace;
+    opacity: 0.6;
+  }
  /* Start from this */
  .marquee {
    position: relative;
@@ -117,6 +139,7 @@
    display: flex !important;
    align-items: center;
    justify-content: center;
+   margin-top: -1%;
  }
  
  .flip-clock-wrapper:before,
