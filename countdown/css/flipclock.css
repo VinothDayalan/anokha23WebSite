@@ -21,7 +21,7 @@
     margin-top: 3%;
   }
   
-  .span {
+  .span-type {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
   }
