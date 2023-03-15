@@ -508,3 +508,24 @@
  
    100% {
      opacity: 0; } }
+
+@media only screen and (max-width: 600px)  {
+        body{
+            width: 20%;
+            margin-left: 40%;
+        }
+        .aimg{
+            width: 300%;
+            margin-left: -90%;
+        }
+        .flip-clock-wrapper {
+            text-align: center;
+            position: relative;
+            width: 20%;
+            margin: 1em;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            margin-top: -1%;
+          }
+}
