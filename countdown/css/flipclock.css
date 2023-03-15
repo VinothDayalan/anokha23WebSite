@@ -509,10 +509,12 @@
    100% {
      opacity: 0; } }
 
-@media only screen and (max-width: 600px)  {
+/* @media only screen and (max-width: 600px)  {
         body{
-            width: 20%;
             margin-left: 40%;
+        }
+        html{
+            width: 100%;
         }
         .aimg{
             width: 300%;
@@ -521,11 +523,35 @@
         .flip-clock-wrapper {
             text-align: center;
             position: relative;
-            width: 20%;
+            width: 10%;
             margin: 1em;
             display: flex !important;
             align-items: center;
             justify-content: center;
             margin-top: -1%;
+                margin-left: 20%;
           }
+} */
+
+@media screen and (max-width: 600px){
+    .aimg{
+        width: 180%;
+        margin-top: 100%;
+    }
+    .flip-clock-wrapper .flip{
+      margin-left: 5%;
+    }
+    .flip-clock-wrapper{
+      margin-left: 35%;
+    }
+    .type-writer{
+      margin-left: 40%;
+      width: 100%;
+    }
+    .Footer{
+      margin-left: 37%;
+    width: 100%;
+    }
+    
 }
+    
