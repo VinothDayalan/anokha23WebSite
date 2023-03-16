@@ -578,6 +578,9 @@
     margin-left: 37%;
   width: 100%;
   }
+  body {
+      margin-top: 30%;
+      }
 
 
 }
