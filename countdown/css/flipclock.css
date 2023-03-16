@@ -554,4 +554,32 @@
     }
     
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .aimg{
+      width: 180%;
+      margin-top: 100%;
+  }
+  .flip-clock-wrapper .flip{
+    margin-left: 5%;
+  }
+  .flip-clock-wrapper{
+    margin-left: 35%;
+  }
+  .type-writer{
+    margin-left: 40%;
+    width: 100%;
+  }
+  .Footer{
+    margin-left: 37%;
+  width: 100%;
+  }
+
+
+}
+
     
