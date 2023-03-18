@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Space+Mono&display=swap');
+
+* {
+  transition: all 1s;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  color: #888;
+  margin: 0;
+}
+
+#main {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.fof {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fof img {
+  margin-top: -5%;
+}
+
+.fof h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: 500%;
+  display: inline-block;
+  padding-right: 12px;
+  padding-left: 12px;
+  animation: type 0.7s alternate infinite;
+  margin-bottom: auto;
+  margin-top: -1%;
+}
+
+.fof h2 {
+  margin-top: -1%;
+}
+
+button {
+  font-family: "DM Sans", sans-serif;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #333;
+  color: white;
+}
+
+.fof a {
+    text-decoration: none;
+    color: black;
+}
+
+.fof a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Footer {
+  color: #555;
+  font-family: "Space Mono", monospace;
+  opacity: 0.6;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}

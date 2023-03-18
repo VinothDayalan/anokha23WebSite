@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="./img/anokha_circle.png">
+    <link rel="stylesheet" href="./css/404.css">
+    <title>Error Page</title>
+</head>
+<body>
+    <div id="main">
+        <div class="fof">
+            <img id="error-image" width="30%"><br>
+            <h1 class="error-num" id="error-code"></h1>
+            <h2 id="error-message"></h2>
+            <p id="error-description"></p>
+            <!-- Add a return to home button-->
+            <button onclick="window.location.href = 'index.html';">Return to Home</button>
+        </div>
+    </div>
+    <footer>
+        <center class="Footer">Made with &heartsuit; by WMD</center>
+    </footer>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const errorCode = params.get("code");
+        
+        const errorMessages = {
+            "400": {"message": "Bad Request", "description": "The server could not understand the request.", "image": "./img/400.png"},
+            "401": {"message": "Unauthorized", "description": "You are not authorized to access this page.", "image": "./img/401.png"},
+            "403": {"message": "Forbidden", "description": "You do not have permission to access this page.", "image": "./img/403.png"},
+            "404": {"message": "Not Found", "description": "The requested page could not be found.", "image": "./img/404.png"},
+            "429": {"message": "Too Many Requests","description": "You have sent too many requests in a given amount of time","image": "./img/429.png"},
+            "500": {"message": "Internal Server Error", "description": "The server encountered an error.", "image": "./img/500.png"},
+            "502": {"message": "Bad Gateway","description": "The server received an invalid response from the upstream server.","image": "./img/502.png"},
+            "503": {"message": "Service Unavailable","description": "The server is currently unable to handle the request due to a temporary overloading or maintenance of the server.","image": "./img/503.png"},
+            "504": {"message": "Gateway Timeout","description": "The server did not receive a timely response from the upstream server.","image": "./img/504.png"},
+            "default": {"message": "Unknown Error", "description": "An unknown error occurred.", "image": "./img/error.png"},
+        };
+        
+        const errorData = errorMessages[errorCode] || errorMessages["default"];
+        
+        const errorCodeDiv = document.getElementById("error-code");
+        errorCodeDiv.textContent = errorCode || "Unknown Error";
+        
+        const errorMessageDiv = document.getElementById("error-message");
+        errorMessageDiv.textContent = errorData.message;
+        
+        const errorDescriptionDiv = document.getElementById("error-description");
+        errorDescriptionDiv.textContent = errorData.description;
+        
+        const errorImage = document.getElementById("error-image");
+        errorImage.src = errorData.image;
+    </script>
+</body>
+</html>
